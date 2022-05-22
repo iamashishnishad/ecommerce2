@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+button{
+    height: 40px;
+    width: 150px;
+    font-size: large;
+}
+form{
+    margin-top: 40px;
+}
+
+</style>
+<body>
+    <button id="productpage" onclick="productpage()">Product Page</button>
+    
+
+        <form onsubmit="submitProduct(event)" id="products">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="category" placeholder="Category">
+            <input type="url" id="image" placeholder="Image">
+            <input type="number" id="price" placeholder="Price">
+            <select name="gender" id="gender">
+
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <input type="submit" id="add" >
+        </form>
+
+
+
+
+   
+    
+</body>
+</html>
+<script src="index.js"></script>
+
+
